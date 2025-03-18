@@ -2,37 +2,37 @@
 
 Este proyecto permite organizar un sorteo de "Amigo Secreto" ingresando nombres y seleccionando aleatoriamente un participante. Una vez realizado el sorteo, el botón se deshabilita para evitar múltiples sorteos.
 
- Características
+<h2> Características </h2> 
 
-Agregar nombres a una lista.
+- Agregar nombres a una lista.
 
-Validar que los nombres no se repitan.
+- Validar que los nombres no se repitan.
 
-Sortear un nombre aleatorio de la lista.
+- Sortear un nombre aleatorio de la lista.
 
-Deshabilitar el botón de sorteo después de su uso.
+- Deshabilitar el botón de sorteo después de su uso.
 
- Uso del Proyecto
+ <h2> Uso del Proyecto </h2>
 
-Ingresa un nombre en el campo de texto.
+- Ingresa un nombre en el campo de texto.
 
-Presiona el botón "Añadir" para guardarlo en la lista.
+- Presiona el botón "Añadir" para guardarlo en la lista.
 
-Una vez agregados los participantes, presiona "Sortear amigo".
+- Una vez agregados los participantes, presiona "Sortear amigo".
 
-El sistema mostrará el nombre del amigo secreto y deshabilitará el botón.
+- El sistema mostrará el nombre del amigo secreto y deshabilitará el botón.
 
- Estructura del Proyecto
+ <h2> Estructura del Proyecto </h2>
 
-index.html: Contiene la estructura de la página.
+- index.html: Contiene la estructura de la página.
 
-style.css: Maneja los estilos y diseño.
+- style.css: Maneja los estilos y diseño.
 
-app.js: Contiene la lógica del sorteo y las validaciones.
+- app.js: Contiene la lógica del sorteo y las validaciones.
 
- Código Destacado
+<h2> Código Destacado </h2> 
 
-El botón de sorteo se deshabilita con la siguiente función:
+- El botón de sorteo se deshabilita con la siguiente función:
 
 function deshabilitarBoton() {
     const botonSortear = document.querySelector(".button-draw");
@@ -41,10 +41,10 @@ function deshabilitarBoton() {
     botonSortear.style.cursor = "not-allowed";
 }
 
-🛠️ Tecnologías Utilizadas
+<h2>Tecnologías Utilizadas </h2> 
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
